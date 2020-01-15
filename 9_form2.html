@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body bgcolor="skyblue">
+    <center>
+        <form action="after_register.html" method="GET">
+            <fieldset> Registration form... 
+                <br>
+                <table>
+                    <tr>
+                        <td><label >Enter Your Name</label></td>
+                        <td>:<input required type="text" name="full name" placeholder="Full Name"></td>
+                    </tr>
+                    
+                    <tr>
+                        <td><label>Email</label></td>
+                        <td>:<input required type="text" name="email" placeholder="Email"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Create Username</label></td>
+                        <td>:<input required type="text" name="uname" placeholder="UserName" ></td>
+                    </tr>
+                    
+                    <tr>
+                        <td> <label>Create Password</label></td>
+                        <td> :<input required type="Password" name="cpass" placeholder="Enter Password"></td>
+                    </tr>
+                    
+                    <tr>
+                        <td> <label>Confirm Password</label></td>
+                        <td> :<input required type="Password" name="ccpass" placeholder="Confirm Password"></td>
+                    </tr>
+                    <br>
+                    <tr>
+                        <td><label>Contact No.</label></td>
+                        <td>: 
+                            <select> <option value="+91">+91</option></select> 
+                            <input required type="text" name="mob" placeholder="Mobile no." maxlength="10" >
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td><label>Gender</label></td>
+                        <td>:<input type="radio" name="gender" ><label>Male</label> 
+                            <input type="radio" name="gender" ><label>Female</label>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td><label>Date of Birth</label></td>
+                        <td>: <input required type="Date" name="date"> </td>
+                    </tr>
+                    
+                    <tr>
+                        <td><label>Anual Income</label></td>
+                        <td>: 0<input type="range" name="range">10 lac </td>
+                    </tr>
+                    
+                    <tr>
+                        <td><label>City </label></td>
+                        <td>:
+                        <select required name="city">
+                            <option value="Select city">Select city..</option>
+                            <option value="Pune">Pune</option>
+                            <option value="Mumbai">Mumbai</option>
+                            <option value="Nashik">Nashik</option>
+                            <option value="Aurangabad">Aurangabad</option>
+                            <option value="Nagpur">Nagpur</option>
+                            <option value="kolhapur">Kolhapur</option>
+                            <option value="satara">Satara</option>
+                            <option value="solapur">Solapur</option>
+                            <option value="Latur">Latur</option>
+                            <option value="Baramati">Baramati</option>
+                        </select>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td><label>Qualification </label> </td>
+                        <td>:<input type="checkbox" name="q" ><label>Under graduate</label>
+                            <input type="checkbox" name="q" ><label>Graduate</label>
+                            <input type="checkbox" name="q" ><label>Post Graduate</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input type="submit" name="register"></td>
+                    </tr>
+                    
+                </table>
+            </fieldset>
+        </form>
+    </center>
+</body>
+</html>
